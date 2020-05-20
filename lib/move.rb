@@ -9,5 +9,8 @@ end
 # code your input_to_index and move method here!
 def input_to_index("1" - "9")
 
-puts "Welcome to Tic Tac Toe!"
+end
+
+def move(board, index, current_player = "X")
+
 end
