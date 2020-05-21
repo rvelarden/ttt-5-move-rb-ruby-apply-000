@@ -9,3 +9,4 @@ puts "Welcome to Tic Tac Toe!"
 puts "please enter 1-9"
 name = gets.strip
 input_to_index(name)
+move(board, index, current_player = "X")
