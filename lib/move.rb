@@ -14,5 +14,5 @@ user_input.to_i-1
 end
 
 def move(board, index, current_player = "X")
-binding.pry 
+board[index]=current_player
 end
