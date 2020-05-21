@@ -15,5 +15,5 @@ end
 puts "Welcome to Tic Tac Toe!"
 puts "please enter 1-9"
 name = gets.strip
-index = input_to_index(name)  
+index = input_to_index(name)
 move(board, index)
